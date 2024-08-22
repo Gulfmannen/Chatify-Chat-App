@@ -1,0 +1,75 @@
+.sidebar {
+  width: 200px; /* Set the sidebar width to the static desired width */
+  height: 100vh;
+  background-image: url(img/8e46150f790fbefe438d9c2767c32ad1.gif);
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  /* Removed the transition effect */
+}
+
+p {
+  color: rgb(255, 196, 0);
+}
+
+.sidebar-content {
+  opacity: 1; /* Keep content visible */
+  padding: 10px;
+  /* Removed the transition effect */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar li {
+  padding: 15px 0;
+}
+
+.sidebar a,
+.sidebar button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  background-color: #00d9ff;
+  border: solid #00d9ff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 16px;
+
+  border: none;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.sidebar a:hover {
+  color: #ffc400;
+  background-image: url(img/space_rain.gif);
+  border: solid #00d9ff;
+}
+
+.sidebar button:hover {
+  color: #ffc400;
+  background-color: #00d9ff;
+  border: solid #00d9ff;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.loggedin {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}

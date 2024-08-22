@@ -1,0 +1,90 @@
+/* Main container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 3px solid #00ccff; /* Bright pink border */
+  background-color: #6d6d6d; /* Yellow background */
+  font-family: "Comic Sans MS", "Arial", sans-serif; /* Classic 90s fonts */
+}
+
+/* Body */
+body {
+  background-image: url(img/8e46150f790fbefe438d9c2767c32ad1.gif);
+  color: #000000; /* Black text color */
+  font-family: "Verdana", sans-serif; /* Another popular 90s font */
+}
+
+/* Hyperlinks */
+a {
+  color: #ff0000; /* Red hyperlinks */
+  text-decoration: underline; /* Underlined links */
+  font-weight: bold; /* Bold text */
+}
+
+a:hover {
+  color: #00ff00; /* Green hover effect */
+}
+
+/* Buttons */
+button {
+  background-color: #00d9ff; /* Bright pink background */
+  color: #000000; /* Red headers */
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-image: url(img/space_rain.gif);
+  color: #ffc400;
+}
+
+h2 {
+  border: inset #00d9ff;
+}
+
+/* Header */
+h1,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000; /* Red headers */
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Images */
+img {
+  border: 3px solid #00ccff; /* Bright pink border */
+  padding: 5px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #0000ff; /* Blue border */
+  background-color: #ffffff; /* White background */
+}
+
+th,
+td {
+  border: 2px solid #ff00ff; /* Bright pink borders */
+  padding: 10px;
+  font-family: "Comic Sans MS", "Arial", sans-serif; /* Comic Sans font */
+}
+
+th {
+  background-color: #ff0000; /* Red header */
+  color: #ffffff; /* White text */
+}
+
+label {
+  padding-right: 1rem;
+}
